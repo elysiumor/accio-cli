@@ -1,0 +1,13 @@
+[package]
+name = "accio"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "accio"
+path = "src/accio.rs"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+indicatif = "0.17"
+rayon = "1.7"
