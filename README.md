@@ -14,17 +14,17 @@ It provides functionality similar to Unix file utilities — such as listing, lo
 - Clean professional CLI with automatic help and version flags  
 - Reports execution time (e.g., `2m 32secs` format)
 
-
+---
 
 ## 🚀 Installation
 
 ### Prerequisites
+
 1. Install **Rust** (via [rustup.rs](https://rustup.rs))
 2. Clone this repository:
    ```bash
    git clone https://github.com/<your-username>/accio.git
    cd accio
-````
 
 3. Build:
 
@@ -166,5 +166,3 @@ Built with Rust, powered by:
 * [Clap](https://github.com/clap-rs/clap)
 * [Rayon](https://github.com/rayon-rs/rayon)
 * [Indicatif](https://github.com/console-rs/indicatif)
-I can include badges for **Crates.io**, **docs.rs**, **MIT License**, and **Build passing** if you want.
-```
