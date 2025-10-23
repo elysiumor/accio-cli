@@ -12,7 +12,7 @@ use std::time::Instant;
 #[command(
     name = "Accio",
     version = "1.0",
-    author = "Your Name",
+    author = "Elysiumor",
     about = "A modern and optimized Rust CLI file tool"
 )]
 struct Cli {
