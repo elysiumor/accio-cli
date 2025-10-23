@@ -1,7 +1,3 @@
-Sure! Here’s the **`README.md`** file content exactly as you described — clean, properly formatted, and ready to save directly as `README.md` in your **Accio CLI** repository:
-
----
-
 ````markdown
 # ⚡ Accio CLI
 
