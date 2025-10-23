@@ -1,20 +1,22 @@
-Here is the **Markdown file content** for your GitHub repository README as a plain text you can save as `README.md`:
+Sure! Here’s the **`README.md`** file content exactly as you described — clean, properly formatted, and ready to save directly as `README.md` in your **Accio CLI** repository:
 
-```
+---
+
+````markdown
 # ⚡ Accio CLI
 
-**Accio** is a blazing‑fast, modern, and user‑friendly command‑line tool built in **Rust**.  
-It provides functionality similar to Unix file utilities — such as listing, locating, and managing files — using **multi‑threading**, **progress indicators**, and **tiny footprint performance**.
+**Accio** is a blazing-fast, modern, and user-friendly command-line tool built in **Rust**.  
+It provides functionality similar to Unix file utilities — such as listing, locating, and managing files — using **multi-threading**, **progress indicators**, and **tiny footprint performance**.
 
 ---
 
 ## ✨ Features
 
-- Lightweight and compiled with Rust’s zero‑cost abstractions
-- Sub‑command architecture using [`clap`](https://github.com/clap-rs/clap)
-- Dynamic progress spinners with [`indicatif`](https://github.com/console-rs/indicatif)
-- Optional multi‑core parallel search using [`rayon`](https://github.com/rayon-rs/rayon)
-- Clean professional CLI with automatic help and version flags
+- Lightweight and compiled with Rust’s zero-cost abstractions  
+- Sub-command architecture using [`clap`](https://github.com/clap-rs/clap)  
+- Dynamic progress spinners with [`indicatif`](https://github.com/console-rs/indicatif)  
+- Optional multi-core parallel search using [`rayon`](https://github.com/rayon-rs/rayon)  
+- Clean professional CLI with automatic help and version flags  
 - Reports execution time (e.g., `2m 32secs` format)
 
 ---
@@ -24,16 +26,19 @@ It provides functionality similar to Unix file utilities — such as listing, lo
 ### Prerequisites
 1. Install **Rust** (via [rustup.rs](https://rustup.rs))
 2. Clone this repository:
-   ```
+   ```bash
    git clone https://github.com/<your-username>/accio.git
    cd accio
-   ```
+````
+
 3. Build:
-   ```
+
+   ```bash
    cargo build --release
    ```
 4. Run:
-   ```
+
+   ```bash
    cargo run -- <COMMAND>
    ```
 
@@ -42,30 +47,38 @@ It provides functionality similar to Unix file utilities — such as listing, lo
 ## 📖 Usage
 
 ### 1. Show Help
-```
+
+```bash
 accio --help
 ```
 
 ### 2. Print Working Directory
-```
+
+```bash
 accio pwd
 ```
 
 ### 3. List Files in Current Directory
-```
+
+```bash
 accio ls
 ```
 
 ### 4. Search for a File
-```
+
+```bash
 accio search <filename>
 ```
-Example:
-```
+
+**Example:**
+
+```bash
 accio search report.txt
 ```
+
 When executed, you will be prompted for:
-```
+
+```text
 Enter directory path to scan: D:\Projects
 Use parallel search (Rayon)? (y/n): y
 Starting parallel search...
@@ -77,28 +90,28 @@ D:\Projects\Docs\report.txt
 
 ## ⚙️ How It Works
 
-- `clap` provides declarative argument parsing and help.
-- `indicatif` displays real‑time scanning progress.
-- `rayon` provides optional parallel recursive scanning using all CPU cores.
-- Both sequential and parallel modes measure execution time using Rust’s built‑in timers.
+* `clap` provides declarative argument parsing and help.
+* `indicatif` displays real-time scanning progress.
+* `rayon` provides optional parallel recursive scanning using all CPU cores.
+* Both sequential and parallel modes measure execution time using Rust’s built-in timers.
 
 ---
 
 ## 🧩 Commands
 
-| Command | Description |
-|----------|--------------|
-| `pwd` | Prints the current working directory |
-| `ls`  | Lists all files and folders in the current directory |
+| Command             | Description                                                          |
+| ------------------- | -------------------------------------------------------------------- |
+| `pwd`               | Prints the current working directory                                 |
+| `ls`                | Lists all files and folders in the current directory                 |
 | `search <filename>` | Recursively searches for the specified filename in a given directory |
-| `-h`, `--help` | Displays help information |
-| `--version` | Displays the version number |
+| `-h`, `--help`      | Displays help information                                            |
+| `--version`         | Displays the version number                                          |
 
 ---
 
 ## 🕒 Example Output
 
-```
+```text
 Enter directory path to scan: C:\Users\Steve\Downloads
 Use parallel search (Rayon)? (y/n): n
 Starting sequential search...
@@ -110,23 +123,25 @@ C:\Users\Steve\Downloads\report.txt
 
 ## 🧠 Tech Stack
 
-- **Language:** Rust 1.74+
-- **CLI Framework:** Clap (v4.5)
-- **Progress Display:** Indicatif
-- **Parallel Engine:** Rayon
-- **Project Type:** Command‑Line Application
+* **Language:** Rust 1.74+
+* **CLI Framework:** Clap (v4.5)
+* **Progress Display:** Indicatif
+* **Parallel Engine:** Rayon
+* **Project Type:** Command-Line Application
 
 ---
 
 ## 🧑‍💻 Development Setup
 
 ### Debug Run
-```
+
+```bash
 cargo run -- search notes.txt
 ```
 
 ### Release Build
-```
+
+```bash
 cargo build --release
 ./target/release/accio ls
 ```
@@ -135,16 +150,16 @@ cargo build --release
 
 ## 🪄 Future Enhancements
 
-- `--path` and `--parallel` flags (non‑interactive mode)
-- File content text search (like `grep`)
-- JSON output mode for integrations
-- Cross‑platform packaging (`.exe`, `.deb`, `.tar.gz`)
+* `--path` and `--parallel` flags (non-interactive mode)
+* File content text search (like `grep`)
+* JSON output mode for integrations
+* Cross-platform packaging (`.exe`, `.deb`, `.tar.gz`)
 
 ---
 
 ## 📄 License
 
-Licensed under the **MIT License**.  
+Licensed under the **MIT License**.
 See the [LICENSE](./LICENSE) file for details.
 
 ---
@@ -152,11 +167,9 @@ See the [LICENSE](./LICENSE) file for details.
 ## ❤️ Acknowledgments
 
 Built with Rust, powered by:
-- [Clap](https://github.com/clap-rs/clap)
-- [Rayon](https://github.com/rayon-rs/rayon)
-- [Indicatif](https://github.com/console-rs/indicatif)
 
----
-[8](https://www.w3docs.com/nx/marked)
-[9](https://mconverter.eu/convert/markdown/docx/)
-[10](https://www.switchlabs.dev/markdown-to-richtext)
+* [Clap](https://github.com/clap-rs/clap)
+* [Rayon](https://github.com/rayon-rs/rayon)
+* [Indicatif](https://github.com/console-rs/indicatif)
+I can include badges for **Crates.io**, **docs.rs**, **MIT License**, and **Build passing** if you want.
+```
