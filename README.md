@@ -1,4 +1,3 @@
-````markdown
 # ⚡ Accio CLI
 
 **Accio** is a blazing-fast, modern, and user-friendly command-line tool built in **Rust**.  
@@ -15,7 +14,7 @@ It provides functionality similar to Unix file utilities — such as listing, lo
 - Clean professional CLI with automatic help and version flags  
 - Reports execution time (e.g., `2m 32secs` format)
 
----
+
 
 ## 🚀 Installation
 
