@@ -1,7 +1,7 @@
 # ⚡ Accio CLI
 
 **Accio** is a blazing-fast, modern, and user-friendly command-line tool built in **Rust**.  
-It provides functionality similar to Unix file utilities — such as listing, locating, and managing files — using **multi-threading**, **progress indicators**, and **tiny footprint performance**.
+It provides functionality similar to Unix file utilities such as listing, locating, and managing files using **multi-threading**, **progress indicators**, and **tiny footprint performance**.
 
 ---
 
